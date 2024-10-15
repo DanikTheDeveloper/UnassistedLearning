@@ -23,9 +23,6 @@ print(f"First 10 Samples:\n{x[:10]}")
     # 3.1. Import KMeans from scikit-learn
 from sklearn.cluster import KMeans
     # 3.2. Create an instance of KMeans with the specified number of clusters and max_iter
-NUM_CLUSTERS = 3  # Change to 2, 3, or 4
-MAX_ITER = 20  # Change to 5, 10, or 20
-
 kmeans = KMeans(n_clusters=NUM_CLUSTERS, max_iter=MAX_ITER, random_state=42)
     # 3.3. Fit the KMeans model to the data X
 kmeans.fit(x)
@@ -37,9 +34,6 @@ print(f"Cluster Centers:\n{kmeans.cluster_centers_}")
 
 # 4. Visualize the Results
     # 4.1. Extract the features for visualization
-FEATURE_X_INDEX = 2  # Petal length
-FEATURE_Y_INDEX = 3  # Petal width
-
 x_feature = x[:, FEATURE_X_INDEX]
 y_feature = x[:, FEATURE_Y_INDEX]
     # 4.2. Create a scatter plot of x_feature vs y_feature, colored by the cluster labels
