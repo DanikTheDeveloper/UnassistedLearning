@@ -23,7 +23,7 @@ print(f"First 10 Samples:\n{x[:10]}")
     # 3.1. Import KMeans from scikit-learn
 from sklearn.cluster import KMeans
     # 3.2. Create an instance of KMeans with the specified number of clusters and max_iter
-NUM_CLUSTERS = 2  # Change to 2, 3, or 4
+NUM_CLUSTERS = 3  # Change to 2, 3, or 4
 MAX_ITER = 20  # Change to 5, 10, or 20
 
 kmeans = KMeans(n_clusters=NUM_CLUSTERS, max_iter=MAX_ITER, random_state=42)
