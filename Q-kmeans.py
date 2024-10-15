@@ -15,7 +15,7 @@ from sklearn.cluster import KMeans
 data = load_iris()
 x = data.data
 y = data.target
-features = data.features
+features = data.feature_names
 print(f"Features: {features}")
 print(f"First 10 Samples:\n{x[:10]}")
 
