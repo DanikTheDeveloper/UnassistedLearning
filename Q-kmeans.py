@@ -1,7 +1,7 @@
 
 # 0. Adjust parameters
-NUM_CLUSTERS = 2       # Number of clusters for K-Means (Experiment with 2, 3, 4)
-MAX_ITER = 5           # Maximum number of iterations for the algorithm (Experiment with 5, 10, 20)
+NUM_CLUSTERS = 3       # Number of clusters for K-Means (Experiment with 2, 3, 4)
+MAX_ITER = 10           # Maximum number of iterations for the algorithm (Experiment with 5, 10, 20)
 FEATURE_X_INDEX = 2    # Index of the feature for the x-axis (0 to 3 for Iris)
 FEATURE_Y_INDEX = 3    # Index of the feature for the y-axis (0 to 3 for Iris)
 
